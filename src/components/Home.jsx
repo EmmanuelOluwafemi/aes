@@ -119,7 +119,7 @@ export default Home;
 
 const HomeStyle = Styled.div`
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(${bg});
     background-size: cover;
     background-position: center;
