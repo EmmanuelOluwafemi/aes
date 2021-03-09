@@ -118,7 +118,8 @@ const Home = () => {
 export default Home;
 
 const HomeStyle = Styled.div`
-    width: 100vw;
+    max-width: 100vw;
+    width: 100%;
     min-height: 100vh;
     background-image: url(${bg});
     background-size: cover;
